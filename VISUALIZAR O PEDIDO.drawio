@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" modified="2024-04-11T23:01:22.308Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="DF18d_MS5buLOpkkKlMK" version="24.2.3" type="device">
+  <diagram name="Página-1" id="_a1uhKOgoMHV7UZ4VY9R">
+    <mxGraphModel dx="1114" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RE8Pwqm5nBQz_yacbl6Q-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120.00000000000007" y="280" as="sourcePoint" />
+            <mxPoint x="573.3299999999999" y="462.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="119.8" y="460" />
+              <mxPoint x="573.8" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RE8Pwqm5nBQz_yacbl6Q-1" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="175" width="56.67" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="RE8Pwqm5nBQz_yacbl6Q-6" value="LOGIN" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RE8Pwqm5nBQz_yacbl6Q-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.033;entryY=0.713;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RE8Pwqm5nBQz_yacbl6Q-1" target="RE8Pwqm5nBQz_yacbl6Q-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="230" as="sourcePoint" />
+            <mxPoint x="230" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RE8Pwqm5nBQz_yacbl6Q-15" value="ADICIONAR O LIVRO NO CARRINHO" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="140" width="112.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RE8Pwqm5nBQz_yacbl6Q-16" value="VISUALIZAR O CARRINHO" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RE8Pwqm5nBQz_yacbl6Q-17" value="CONCLUIR O PEDIDO" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RE8Pwqm5nBQz_yacbl6Q-18" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.009;entryY=0.611;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="RE8Pwqm5nBQz_yacbl6Q-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="199.5" as="sourcePoint" />
+            <mxPoint x="530" y="199.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RE8Pwqm5nBQz_yacbl6Q-19" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" target="RE8Pwqm5nBQz_yacbl6Q-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="334" y="240" as="sourcePoint" />
+            <mxPoint x="494" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
